@@ -44,6 +44,9 @@ const renderApp = (
         ${head.title}
         ${head.meta}
         <link rel="stylesheet" href="${STATIC_PATH}/css/bootstrap.min.css">
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
         <style class="${JSS_SSR_CLASS}">${sheets.toString()}</style>
       </head>
       <body>

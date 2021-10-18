@@ -34,6 +34,9 @@ export default {
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
     new webpack.NoEmitOnErrorsPlugin(),
+    new webpack.ProvidePlugin({
+      process: "process/browser",
+    }),
   ],
   performance: {
     hints: false,
