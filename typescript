@@ -1,0 +1,27 @@
+Script started on Mon Oct 18 15:37:09 2021
+[1m[7m%[27m[1m[0m                                                                                [0m[27m[24m[Jrachellesarkis@Rachelles-MBP js-stack % [K[?2004hyyarn script[?2004l
+[2K[1G[1myarn run v1.22.15[22m
+[2K[1G[31merror[39m Command "script" not found.
+[2K[1G[34minfo[39m Visit [1mhttps://yarnpkg.com/en/docs/cli/run[22m for documentation about this command.
+[1m[7m%[27m[1m[0m                                                                                [0m[27m[24m[Jrachellesarkis@Rachelles-MBP js-stack % [K[?2004hyarn scriptdev:wdsscript [11D           [11Dyarn scriptdev:wdsscript [11D           [11D[7mRun yarn add --dev coveralls[27m
+[K
+[K[A[A[40C[27mR[27mu[27mn[27m [27my[27ma[27mr[27mn[27m [27ma[27md[27md[27m [27m-[27m-[27md[27me[27mv[27m [27mc[27mo[27mv[27me[27mr[27ma[27ml[27ml[27ms[2B[K[?2004l
+zsh: command not found: Run
+[1m[7m%[27m[1m[0m                                                                                [0m[27m[24m[Jrachellesarkis@Rachelles-MBP js-stack % [K[?2004hRun yarn add --dev coveralls
+[K
+[K[K[A[A[68C[P[25C [26D[1C[P[24C [25DR[P[24C [25D[P[24C [25D[?2004l[2B
+[2K[1G[1myarn add v1.22.15[22m
+[2K[1G[2m[1/4][22m 🔍  Resolving packages...
+[1G⠁ [0K[1G⠂ source-map@~0.6.1[0K[1G⠄ coveralls[0K[1G⡀ coveralls[0K[1G⢀ coveralls[0K[1G⠠ coveralls[0K[1G⠐ coveralls[0K[1G⠈ coveralls[0K[1G⠁ coveralls[0K[1G⠂ coveralls[0K[1G⠄ coveralls[0K[2K[1G[2K[1G[2m[2/4][22m 🚚  Fetching packages...
+[2K[1G[1G[----------------------------------------------------------------------] 0/1197[1G[##############------------------------------------------------------] 240/1197[1G[############################----------------------------------------] 495/1197[1G[##########################################--------------------------] 736/1197[1G[########################################################------------] 993/1197[1G[###################################################################] 1197/1197[2K[1G[2m[3/4][22m 🔗  Linking dependencies...
+[2K[1G[33mwarning[39m " > bootstrap@4.6.0" has unmet peer dependency "popper.js@^1.16.1".
+[2K[1G[33mwarning[39m Workspaces can only be enabled in private projects.
+[2K[1G[2K[1G[1G[----------------------------------------------------------------------] 0/1271[2K[1G[2K[1G[1G[----------------------------------------------------------------------] 0/2312[1G[##################--------------------------------------------------] 610/2312[1G[#############################################----------------------] 1550/2312[1G[###################################################################] 2312/2312[2K[1G[2m[4/4][22m 🔨  Building fresh packages...
+[1B[2K[1G[33mwarning[39m Workspaces can only be enabled in private projects.
+[2K[1G[32msuccess[39m Saved 1 new dependency.
+[2K[1G[34minfo[39m Direct dependencies
+[2K[1G└─ coveralls@3.1.1
+[2K[1G[34minfo[39m All dependencies
+└─ coveralls@3.1.1
+[2K[1G✨  Done in 2.83s.
+[1m[7m%[27m[1m[0m                                                                                [0m[27m[24m[Jrachellesarkis@Rachelles-MBP js-stack % [K[?2004h
