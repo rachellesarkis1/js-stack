@@ -138,3 +138,22 @@ webpack 5.58.2 compiled [1m[32msuccessfully[39m[22m in 7707 ms
  [33m›[39m   Warning: heroku update available from [92m7.35.0[39m to [92m7.59.0[39m.
 [32m[OKAY] Loaded ENV .env File as KEY=VALUE Format[0m
 [35m4:03:41 PM web.1 | [0m Server running on port 8000 (production).
+^C[33m[WARN] Interrupted by User[0m
+[36m[DONE] Killing all processes with signal  SIGINT[0m
+
+[1m[7m%[27m[1m[0m                                                                                [0m[27m[24m[Jrachellesarkis@Rachelles-MBP js-stack % [K[?2004h[35m4:19:13 PM web.1[0m [31mExited with exit code SIGINT[0m
+^C[?2004l
+[1m[7m%[27m[1m[0m                                                                                [0m[27m[24m[Jrachellesarkis@Rachelles-MBP js-stack % [K[?2004hyarn prod:startbuild[10Dadd popper.js --save[20Dprod:build          [10D[10Dremove pm2[10Dprod:build[10Dadd popper.js --save[20Dprod:build          [10D[10Dremove pm2[10Dprod:build[?2004l
+[2K[1G[1myarn run v1.22.15[22m
+[2K[1G[31merror[39m exercise1@1.0.0: The engine "node" is incompatible with this module. Expected version "7.x". Got "14.18.0"
+[2K[1G[31merror[39m exercise1@1.0.0: The engine "yarn" is incompatible with this module. Expected version "0.20.3". Got "1.22.15"
+[2K[1G[31merror[39m Commands cannot run with an incompatible environment.
+[2K[1G[34minfo[39m Visit [1mhttps://yarnpkg.com/en/docs/cli/run[22m for documentation about this command.
+[1m[7m%[27m[1m[0m                                                                                [0m[27m[24m[Jrachellesarkis@Rachelles-MBP js-stack % [K[?2004hyyarn install[?2004l
+[2K[1G[1myarn install v1.22.15[22m
+[2K[1G[2m[1/5][22m 🔍  Validating package.json...
+[2K[1G[31merror[39m exercise1@1.0.0: The engine "node" is incompatible with this module. Expected version "7.x". Got "14.18.0"
+[2K[1G[31merror[39m exercise1@1.0.0: The engine "yarn" is incompatible with this module. Expected version "0.20.3". Got "1.22.15"
+[2K[1G[31merror[39m Found incompatible module.
+[2K[1G[34minfo[39m Visit [1mhttps://yarnpkg.com/en/docs/cli/install[22m for documentation about this command.
+[1m[7m%[27m[1m[0m                                                                                [0m[27m[24m[Jrachellesarkis@Rachelles-MBP js-stack % [K[?2004h

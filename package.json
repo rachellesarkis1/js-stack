@@ -78,9 +78,5 @@
     "babel-loader": "^8.0.0",
     "coveralls": "^3.1.1",
     "webpack-cli": "^4.9.0"
-  },
-  "engines": {
-    "node": "7.x",
-    "yarn": "0.20.3"
   }
 }
