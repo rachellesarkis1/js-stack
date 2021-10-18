@@ -24,4 +24,117 @@ zsh: command not found: Run
 [2K[1G[34minfo[39m All dependencies
 └─ coveralls@3.1.1
 [2K[1G✨  Done in 2.83s.
-[1m[7m%[27m[1m[0m                                                                                [0m[27m[24m[Jrachellesarkis@Rachelles-MBP js-stack % [K[?2004h
+[1m[7m%[27m[1m[0m                                                                                [0m[27m[24m[Jrachellesarkis@Rachelles-MBP js-stack % [K[?2004h[7myarn remove pm2[27m[15D[27my[27ma[27mr[27mn[27m [27mr[27me[27mm[27mo[27mv[27me[27m [27mp[27mm[27m2[?2004l
+[2K[1G[1myarn remove v1.22.15[22m
+[2K[1G[2m[1/2][22m 🗑  Removing module pm2...
+[2K[1G[2m[2/2][22m 🔨  Regenerating lockfile and installing missing dependencies...
+[1G⠁ [0K[2K[1G[2K[1G[1G[----------------------------------------------------------------------] 0/1109[1G[#############-------------------------------------------------------] 208/1109[1G[############################----------------------------------------] 464/1109[1G[########################################----------------------------] 647/1109[1G[######################################################--------------] 880/1109[1G[###################################################################] 1109/1109[2K[1G[33mwarning[39m " > bootstrap@4.6.0" has unmet peer dependency "popper.js@^1.16.1".
+[2K[1G[33mwarning[39m Workspaces can only be enabled in private projects.
+[2K[1G[2K[1G[1G[----------------------------------------------------------------------] 0/1168[2K[1G[2K[1G[1G[-----------------------------------------------------------------------] 0/126[1G[#####################################################################] 126/126[2K[1G[2K[1G[1G[----------------------------------------------------------------------] 0/2139[1G[#############################---------------------------------------] 906/2139[1G[##########################################################---------] 1866/2139[1G[###################################################################] 2139/2139[2K[1G
+[2K[1G
+[2K[1G
+[2K[1G
+[1G⠁ [0K[1G[1A⠁ [0K[1G[1B[1G[2A⠁ [0K[1G[2B[1G[3A⠁ [0K[1G[3B[1G[4A⠁ [0K[1G[4B[1G[2m[-/5][22m ⠂ waiting...[0K[1G[1A[2m[4/5][22m ⠂ nodemon[0K[1G[1B[1G[2A[2m[3/5][22m ⠂ core-js[0K[1G[2B[1G[3A[2m[2/5][22m ⠂ core-js-pure[0K[1G[3B[1G[4A[2m[1/5][22m ⠂ core-js[0K[1G[4B[1G[2m[-/5][22m ⠄ waiting...[0K[1G[1A[2m[4/5][22m ⠄ nodemon[0K[1G[1B[1G[2A[2m[3/5][22m ⠄ core-js[0K[1G[2B[1G[3A[2m[2/5][22m ⠄ core-js-pure[0K[1G[3B[1G[4A[2m[1/5][22m ⠄ core-js[0K[1G[4B[1G[2m[-/5][22m ⡀ waiting...[0K[1G[1A[2m[4/5][22m ⡀ nodemon[0K[1G[1B[1G[2A[2m[3/5][22m ⡀ core-js[0K[1G[2B[1G[3A[2m[2/5][22m ⡀ core-js-pure[0K[1G[3B[1G[4A[2m[1/5][22m ⡀ core-js[0K[1G[4B[1G[2m[-/5][22m ⢀ waiting...[0K[1G[1A[2m[4/5][22m ⢀ nodemon[0K[1G[1B[1G[2A[2m[3/5][22m ⢀ core-js[0K[1G[2B[1G[3A[2m[2/5][22m ⢀ core-js-pure[0K[1G[3B[1G[4A[2m[1/5][22m ⢀ core-js[0K[1G[4B[1G[2m[-/5][22m ⠠ waiting...[0K[1G[1A[2m[4/5][22m ⠠ nodemon[0K[1G[1B[1G[2A[2m[3/5][22m ⠠ core-js[0K[1G[2B[1G[3A[2m[2/5][22m ⠠ core-js-pure[0K[1G[3B[1G[4A[2m[1/5][22m ⠠ core-js[0K[1G[4B[1G[2m[-/5][22m ⠐ waiting...[0K[1G[1A[2m[4/5][22m ⠐ nodemon[0K[1G[1B[1G[2A[2m[3/5][22m ⠐ core-js[0K[1G[2B[1G[3A[2m[2/5][22m ⠐ core-js-pure[0K[1G[3B[1G[4A[2m[1/5][22m ⠐ core-js[0K[1G[4B[1G[2m[-/5][22m ⠈ waiting...[0K[1G[1A[2m[4/5][22m ⠈ nodemon[0K[1G[1B[1G[2A[2m[3/5][22m ⠈ core-js[0K[1G[2B[1G[3A[2m[2/5][22m ⠈ core-js-pure[0K[1G[3B[1G[4A[2m[1/5][22m ⠈ core-js[0K[1G[4B[1G[2m[-/5][22m ⠁ waiting...[0K[1G[1A[2m[4/5][22m ⠁ nodemon[0K[1G[1B[1G[2A[2m[3/5][22m ⠁ core-js[0K[1G[2B[1G[3A[2m[2/5][22m ⠁ core-js-pure[0K[1G[3B[1G[4A[2m[1/5][22m ⠁ core-js[0K[1G[4B[1G[2m[-/5][22m ⠂ waiting...[0K[1G[1A[2m[4/5][22m ⠂ nodemon[0K[1G[1B[1G[2A[2m[3/5][22m ⠂ core-js[0K[1G[2B[1G[3A[2m[2/5][22m ⠂ core-js-pure[0K[1G[3B[1G[4A[2m[1/5][22m ⠂ core-js[0K[1G[4B[1G[2m[-/5][22m ⠄ waiting...[0K[1G[1A[2m[4/5][22m ⠄ nodemon[0K[1G[1B[1G[2A[2m[3/5][22m ⠄ core-js[0K[1G[2B[1G[3A[2m[2/5][22m ⠄ core-js-pure[0K[1G[3B[1G[4A[2m[1/5][22m ⠄ core-js[0K[1G[4B[1G[2m[-/5][22m ⡀ waiting...[0K[1G[1A[2m[4/5][22m ⡀ nodemon[0K[1G[1B[1G[2A[2m[3/5][22m ⡀ core-js[0K[1G[2B[1G[3A[2m[2/5][22m ⡀ core-js-pure[0K[1G[3B[1G[4A[2m[1/5][22m ⡀ core-js[0K[1G[4B[1G[2m[-/5][22m ⢀ waiting...[0K[1G[1A[2m[4/5][22m ⢀ nodemon[0K[1G[1B[1G[2A[2m[-/5][22m ⢀ waiting...[0K[1G[2B[1G[3A[2m[-/5][22m ⢀ waiting...[0K[1G[3B[1G[4A[2m[1/5][22m ⢀ core-js[0K[1G[4B[1G[2m[-/5][22m ⠠ waiting...[0K[1G[1A[2m[4/5][22m ⠠ nodemon[0K[1G[1B[1G[2A[2m[-/5][22m ⠠ waiting...[0K[1G[2B[1G[3A[2m[-/5][22m ⠠ waiting...[0K[1G[3B[1G[4A[2m[1/5][22m ⠠ core-js[0K[1G[4B[1G[4A[2K[4B[1G[3A[2K[3B[1G[2A[2K[2B[1G[1A[2K[1B[2K[1G[4A[2K[1G[32msuccess[39m Uninstalled packages.
+[2K[1G[2K[1G✨  Done in 3.43s.
+[1m[7m%[27m[1m[0m                                                                                [0m[27m[24m[Jrachellesarkis@Rachelles-MBP js-stack % [K[?2004hyyaen  rn pri od:build[?2004l
+[2K[1G[1myarn run v1.22.15[22m
+[2K[1G[2m$ rimraf lib dist && babel src -d lib --ignore .test.js && cross-env NODE_ENV=production webpack -p --progress[22m
+Successfully compiled 30 files with Babel (670ms).
+[webpack-cli] [31mError: Unknown option '-p'[39m
+[webpack-cli] [31mRun 'webpack --help' to see available commands and options[39m
+[2K[1G[31merror[39m Command failed with exit code 2.
+[2K[1G[34minfo[39m Visit [1mhttps://yarnpkg.com/en/docs/cli/run[22m for documentation about this command.
+[1m[7m%[27m[1m[0m                                                                                [0m[27m[24m[Jrachellesarkis@Rachelles-MBP js-stack % [K[?2004hyarn prod:build[?2004l
+[2K[1G[1myarn run v1.22.15[22m
+[2K[1G[2m$ rimraf lib dist && babel src -d lib --ignore .test.js && cross-env NODE_ENV=production webpack[22m
+Successfully compiled 30 files with Babel (658ms).
+assets by status 521 KiB [1m[32m[cached][39m[22m 1 asset
+orphan modules 354 KiB [1m[33m[orphan][39m[22m 136 modules
+runtime modules 26.7 KiB 13 modules
+cacheable modules 1.22 MiB
+  modules by path [1m./node_modules/[39m[22m 969 KiB 19 modules
+  modules by path [1m./src/[39m[22m 280 KiB
+    modules by path [1m./src/shared/[39m[22m 193 KiB
+      modules by path [1m./src/shared/*.js[39m[22m 1.1 KiB 3 modules
+      [1m./src/shared/app.jsx + 44 modules[39m[22m 189 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+      [1m./src/shared/reducer/hello.js[39m[22m 867 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+      [1m./src/shared/action/hello.js + 4 modules[39m[22m 2.64 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    modules by path [1m./src/client/[39m[22m 86.3 KiB
+      [1m./src/client/index.jsx[39m[22m 1.99 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+      [1m./src/client/socket.js + 24 modules[39m[22m 84.3 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./node_modules/bootstrap/dist/js/bootstrap.js[39m[22m [1m[32m7:101-121[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'popper.js' in '/Users/rachellesarkis/Desktop/js-stack/node_modules/bootstrap/dist/js'[39m[22m
+resolve 'popper.js' in '/Users/rachellesarkis/Desktop/js-stack/node_modules/bootstrap/dist/js'
+  Parsed request is a module
+  using description file: /Users/rachellesarkis/Desktop/js-stack/node_modules/bootstrap/package.json (relative path: ./dist/js)
+    Field 'browser' doesn't contain a valid alias configuration
+    resolve as module
+      [1m[31m/Users/rachellesarkis/Desktop/js-stack/node_modules/bootstrap/dist/js/node_modules doesn't exist[39m[22m or is not a directory
+      [1m[31m/Users/rachellesarkis/Desktop/js-stack/node_modules/bootstrap/dist/node_modules doesn't exist[39m[22m or is not a directory
+      [1m[31m/Users/rachellesarkis/Desktop/js-stack/node_modules/bootstrap/node_modules doesn't exist[39m[22m or is not a directory
+      [1m[31m/Users/rachellesarkis/Desktop/js-stack/node_modules/node_modules doesn't exist[39m[22m or is not a directory
+      looking for modules in /Users/rachellesarkis/Desktop/js-stack/node_modules
+        single file module
+          using description file: /Users/rachellesarkis/Desktop/js-stack/package.json (relative path: ./node_modules/popper.js)
+            no extension
+              Field 'browser' doesn't contain a valid alias configuration
+              [1m[31m/Users/rachellesarkis/Desktop/js-stack/node_modules/popper.js doesn't exist[39m[22m
+            .js
+              Field 'browser' doesn't contain a valid alias configuration
+              [1m[31m/Users/rachellesarkis/Desktop/js-stack/node_modules/popper.js.js doesn't exist[39m[22m
+            .jsx
+              Field 'browser' doesn't contain a valid alias configuration
+              [1m[31m/Users/rachellesarkis/Desktop/js-stack/node_modules/popper.js.jsx doesn't exist[39m[22m
+        [1m[31m/Users/rachellesarkis/Desktop/js-stack/node_modules/popper.js doesn't exist[39m[22m
+      [1m[31m/Users/rachellesarkis/Desktop/node_modules doesn't exist[39m[22m or is not a directory
+      [1m[31m/Users/rachellesarkis/node_modules doesn't exist[39m[22m or is not a directory
+      [1m[31m/Users/node_modules doesn't exist[39m[22m or is not a directory
+      [1m[31m/node_modules doesn't exist[39m[22m or is not a directory
+ @ ./src/client/index.jsx 23:0-20
+
+webpack 5.58.2 compiled with [1m[31m1 error[39m[22m in 7659 ms
+[2K[1G[31merror[39m Command failed with exit code 1.
+[2K[1G[34minfo[39m Visit [1mhttps://yarnpkg.com/en/docs/cli/run[22m for documentation about this command.
+[1m[7m%[27m[1m[0m                                                                                [0m[27m[24m[Jrachellesarkis@Rachelles-MBP js-stack % [K[?2004hyyarn add popperk .js --save[?2004l
+[2K[1G[1myarn add v1.22.15[22m
+[2K[1G[2m[1/4][22m 🔍  Resolving packages...
+[1G⠁ [0K[1G⠂ popper.js[0K[1G⠄ popper.js[0K[1G⡀ popper.js[0K[1G⢀ popper.js[0K[1G⠠ popper.js[0K[1G⠐ popper.js[0K[1G⠈ popper.js[0K[1G⠁ popper.js[0K[1G⠂ popper.js[0K[1G⠄ popper.js[0K[1G⡀ popper.js[0K[1G⢀ popper.js[0K[2K[1G[33mwarning[39m popper.js@1.16.1: You can find the new Popper v2 at @popperjs/core, this package is dedicated to the legacy v1
+[2K[1G[2K[1G[2m[2/4][22m 🚚  Fetching packages...
+[2K[1G[1G[----------------------------------------------------------------------] 0/1110[1G[##############------------------------------------------------------] 224/1110[1G[###############################-------------------------------------] 498/1110[1G[##############################################----------------------] 743/1110[1G[#############################################################------] 1006/1110[1G[###################################################################] 1109/1110[2K[1G[2m[3/4][22m 🔗  Linking dependencies...
+[2K[1G[33mwarning[39m Workspaces can only be enabled in private projects.
+[1G[###################################################################] 1110/1110[2K[1G[2K[1G[1G[----------------------------------------------------------------------] 0/1169[2K[1G[2K[1G[1G[------------------------------------------------------------------------] 0/92[1G[#######################################################################] 92/92[2K[1G[2K[1G[1G[----------------------------------------------------------------------] 0/2141[1G[##############################--------------------------------------] 948/2141[1G[###################################################################] 2141/2141[2K[1G[2m[4/4][22m 🔨  Building fresh packages...
+[1B[2K[1G[32msuccess[39m Saved lockfile.
+[2K[1G[33mwarning[39m Workspaces can only be enabled in private projects.
+[2K[1G[32msuccess[39m Saved 1 new dependency.
+[2K[1G[34minfo[39m Direct dependencies
+[2K[1G└─ popper.js@1.16.1
+[2K[1G[34minfo[39m All dependencies
+└─ popper.js@1.16.1
+[2K[1G✨  Done in 4.10s.
+[1m[7m%[27m[1m[0m                                                                                [0m[27m[24m[Jrachellesarkis@Rachelles-MBP js-stack % [K[?2004hyarn add popper.js --save[20Dprod:build          [10D[?2004l
+[2K[1G[1myarn run v1.22.15[22m
+[2K[1G[2m$ rimraf lib dist && babel src -d lib --ignore .test.js && cross-env NODE_ENV=production webpack[22m
+Successfully compiled 30 files with Babel (658ms).
+asset [1m[33mjs/bundle.js[39m[22m [1m[33m541 KiB[39m[22m [1m[32m[emitted][39m[22m [1m[32m[minimized][39m[22m [1m[33m[big][39m[22m (name: main) 1 related asset
+orphan modules 354 KiB [1m[33m[orphan][39m[22m 136 modules
+runtime modules 26.7 KiB 13 modules
+cacheable modules 1.3 MiB
+  modules by path [1m./node_modules/[39m[22m 1.03 MiB 19 modules
+  modules by path [1m./src/[39m[22m 280 KiB
+    modules by path [1m./src/shared/[39m[22m 193 KiB
+      modules by path [1m./src/shared/*.js[39m[22m 1.1 KiB 3 modules
+      [1m./src/shared/app.jsx + 44 modules[39m[22m 189 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+      [1m./src/shared/reducer/hello.js[39m[22m 867 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+      [1m./src/shared/action/hello.js + 4 modules[39m[22m 2.64 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    modules by path [1m./src/client/[39m[22m 86.3 KiB
+      [1m./src/client/index.jsx[39m[22m 1.99 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+      [1m./src/client/socket.js + 24 modules[39m[22m 84.3 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+webpack 5.58.2 compiled [1m[32msuccessfully[39m[22m in 7707 ms
+[2K[1G✨  Done in 9.99s.
+[1m[7m%[27m[1m[0m                                                                                [0m[27m[24m[Jrachellesarkis@Rachelles-MBP js-stack % [K[?2004hyyarn prod:Star    start[?2004l
+[2K[1G[1myarn run v1.22.15[22m
+[2K[1G[2m$ heroku local[22m
+ [33m›[39m   Warning: heroku update available from [92m7.35.0[39m to [92m7.59.0[39m.
+[32m[OKAY] Loaded ENV .env File as KEY=VALUE Format[0m
+[35m4:03:41 PM web.1 | [0m Server running on port 8000 (production).
