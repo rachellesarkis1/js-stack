@@ -10,8 +10,8 @@
     "start": "yarn dev:start",
     "dev:start": "nodemon -e js,jsx --ignore lib --ignore dist --exec babel-node src/server",
     "dev:wds": "webpack-dev-server --progress",
-    "prod:build": "rimraf lib dist && babel src -d lib --ignore .test.js && cross-env NODE_ENV=production webpack -p --progress",
-    "prod:start": "cross-env NODE_ENV=production heroku local",
+    "prod:build": "rimraf lib dist && babel src -d lib --ignore .test.js && cross-env NODE_ENV=production webpack",
+    "prod:start": "heroku local",
     "lint": "eslint src webpack.config.babel.js --ext .js,.jsx",
     "test": "yarn lint && flow && jest --coverage",
     "heroku-postbuild": "yarn prod:build",
@@ -52,6 +52,7 @@
     "jest": "^27.2.5",
     "jquery": "^3.6.0",
     "nodemon": "^2.0.13",
+    "popper.js": "^1.16.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-helmet": "^6.1.0",
@@ -76,7 +77,10 @@
     "@babel/preset-flow": "^7.0.0",
     "babel-loader": "^8.0.0",
     "coveralls": "^3.1.1",
-    "pm2": "^5.1.2",
     "webpack-cli": "^4.9.0"
+  },
+  "engines": {
+    "node": "7.x",
+    "yarn": "0.20.3"
   }
 }
