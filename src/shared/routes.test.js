@@ -1,5 +1,3 @@
-/* eslint quotes: ["error", "double"] */
-
 import { helloEndpointRoute } from "./routes";
 
 test("helloEndpointRoute", () => {

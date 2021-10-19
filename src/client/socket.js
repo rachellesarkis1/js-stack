@@ -1,5 +1,4 @@
 // @flow
-/* eslint quotes: ["error", "double"] */
 
 import { io } from "socket.io-client";
 
@@ -13,8 +12,6 @@ import {
 
 const socket = io(window.location.host);
 
-/* eslint-disable no-console */
-// eslint-disable-next-line no-unused-vars
 const setUpSocket = (store: Object) => {
   socket.on(IO_CONNECT, () => {
     console.log("[socket.io] Connected.");

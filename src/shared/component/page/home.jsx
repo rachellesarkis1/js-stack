@@ -1,6 +1,4 @@
 // @flow
-/* eslint quotes: ["error", "double"] */
-/* eslint-disable */
 import React from "react";
 import Helmet from "react-helmet";
 

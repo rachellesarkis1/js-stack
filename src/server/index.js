@@ -1,8 +1,5 @@
 // @flow
 
-/* eslint quotes: ["error", "double"] */
-/* eslint comma-dangle: ["error", "never"] */
-
 import compression from "compression";
 import express from "express";
 import { Server } from "http";
@@ -26,8 +23,6 @@ app.use(STATIC_PATH, express.static("public"));
 routing(app);
 
 http.listen(WEB_PORT, () => {
-  // eslint-disable-next-line no-console
-  /* eslint-disable */
   console.log(
     `Server running on port ${WEB_PORT} ${
       isProd

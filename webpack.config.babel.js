@@ -1,5 +1,3 @@
-/* eslint quotes: ["error", "double"] */
-
 // @flow
 
 import path from "path";

@@ -1,6 +1,4 @@
 // @flow
-/* eslint quotes: ["error", "double"] */
-/* eslint-disable */
 import $ from "jquery";
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
@@ -16,6 +14,12 @@ const handleNavLinkClick = () => {
   $("body").scrollTop(0);
   $(".js-navbar-collapse").collapse("hide");
 };
+const links = [
+  { route: HOME_PAGE_ROUTE, label: "Home" },
+  { route: HELLO_PAGE_ROUTE, label: "Say Hello" },
+  { route: HELLO_ASYNC_PAGE_ROUTE, label: "Say Hello Asynchronously" },
+  { route: NOT_FOUND_DEMO_PAGE_ROUTE, label: "404 Demo" },
+];
 
 const Nav = () => (
   <nav className="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse">
@@ -33,12 +37,7 @@ const Nav = () => (
     </Link>
     <div className="js-navbar-collapse collapse navbar-collapse">
       <ul className="navbar-nav mr-auto">
-        {[
-          { route: HOME_PAGE_ROUTE, label: "Home" },
-          { route: HELLO_PAGE_ROUTE, label: "Say Hello" },
-          { route: HELLO_ASYNC_PAGE_ROUTE, label: "Say Hello Asynchronously" },
-          { route: NOT_FOUND_DEMO_PAGE_ROUTE, label: "404 Demo" },
-        ].map((link) => (
+        {links.map((link) => (
           <li className="nav-item" key={link.route}>
             <NavLink
               to={link.route}
