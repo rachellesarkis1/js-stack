@@ -1,3 +1,4 @@
+/* eslint-disable quotes */
 // @flow
 
 import compression from "compression";

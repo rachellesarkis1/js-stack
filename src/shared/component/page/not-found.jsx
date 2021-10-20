@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-one-expression-per-line */
 // @flow
 import React from "react";
 import Helmet from "react-helmet";

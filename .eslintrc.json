@@ -19,6 +19,8 @@
     "object-curly-newline": "off",
     "implicit-arrow-linebreak": "off",
     "operator-linebreak": "off",
+    "indent": "off",
+    "jsx-a11y/no-redundant-roles": "off",
     "comma-dangle": ["error", "only-multiline"]
   },
   "settings": {
