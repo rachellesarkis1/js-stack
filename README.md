@@ -1,2 +1,3 @@
-[![Build Status](https://img.shields.io/travis/rachellesarkis1/js-stack.svg?style=flat-square)](https://travis-ci.org/rachellesarkis1/js-stack)
-[![Coverage Status](https://img.shields.io/coveralls/rachellesarkis1/js-stack.svg?style=flat-square)](https://coveralls.io/github/rachellesarkis1/js-stack?branch=main)
+[![rachellesarkis1](https://circleci.com/gh/rachellesarkis1/js-stack.svg?style=svg)](https://app.circleci.com/pipelines/github/rachellesarkis1/js-stack)
+[![codecov](https://codecov.io/gh/rachellesarkis1/js-stack/branch/main/graph/badge.svg?token=CLPJKVCUMZ)](https://codecov.io/gh/rachellesarkis1/js-stack)
+js-stack
