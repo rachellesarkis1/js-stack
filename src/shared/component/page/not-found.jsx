@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import { HOME_PAGE_ROUTE } from "../../routes";
 
 const title = "Page Not Found!";
-
+// $FlowIgnore
 const NotFoundPage = () => (
   <div className="container mt-4">
     <Helmet title={title} />

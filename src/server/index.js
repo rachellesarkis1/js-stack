@@ -12,7 +12,7 @@ import { isProd } from "../shared/util";
 import setUpSocket from "./socket";
 
 const app = express();
-// flow-disable-next-line
+// $FlowIgnore
 const http = Server(app);
 const io = socketIO(http);
 setUpSocket(io);

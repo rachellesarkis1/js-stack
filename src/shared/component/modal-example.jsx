@@ -1,6 +1,6 @@
 // @flow
 import React from "react";
-
+// $FlowIgnore
 const ModalExample = () => (
   <div className="js-modal-example modal fade">
     <div className="modal-dialog">

@@ -1,6 +1,7 @@
 // @flow
 
 import Immutable from "immutable";
+// $FlowIgnore
 import type { fromJS as Immut } from "immutable";
 
 import {
@@ -14,10 +15,11 @@ const initialState = Immutable.fromJS({
   message: "Initial reducer message",
   messageAsync: "Initial reducer message for async call",
 });
-
+// $FlowIgnore
 const helloReducer = (
   state: Immut = initialState,
   action: { type: string, payload: any }
+  // $FlowIgnore
 ) => {
   switch (action.type) {
     case SAY_HELLO:
@@ -35,5 +37,4 @@ const helloReducer = (
       return state;
   }
 };
-
 export default helloReducer;

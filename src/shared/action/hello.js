@@ -10,11 +10,15 @@ export const SAY_HELLO_ASYNC_REQUEST = "SAY_HELLO_ASYNC_REQUEST";
 export const SAY_HELLO_ASYNC_SUCCESS = "SAY_HELLO_ASYNC_SUCCESS";
 export const SAY_HELLO_ASYNC_FAILURE = "SAY_HELLO_ASYNC_FAILURE";
 
+// $FlowIgnore
 export const sayHello = createAction(SAY_HELLO);
+// $FlowIgnore
 export const sayHelloAsyncRequest = createAction(SAY_HELLO_ASYNC_REQUEST);
+// $FlowIgnore
 export const sayHelloAsyncSuccess = createAction(SAY_HELLO_ASYNC_SUCCESS);
+// $FlowIgnore
 export const sayHelloAsyncFailure = createAction(SAY_HELLO_ASYNC_FAILURE);
-
+// $FlowIgnore
 export const sayHelloAsync = (num: number) => (dispatch: Function) => {
   dispatch(sayHelloAsyncRequest());
   return fetch(helloEndpointRoute(num), { method: "GET" })

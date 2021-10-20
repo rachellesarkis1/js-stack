@@ -7,7 +7,7 @@ import MessageAsync from "../../container/message-async";
 import HelloAsyncButton from "../../container/hello-async-button";
 
 const title = "Async Hello Page";
-
+// $FlowIgnore
 const HelloAsyncPage = () => (
   <div className="container mt-4">
     <Helmet

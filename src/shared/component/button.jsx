@@ -7,6 +7,7 @@ type Props = {
   handleClick: Function,
 };
 
+// $FlowIgnore
 const Button = ({ label, handleClick }: Props) => (
   <button
     onClick={handleClick}

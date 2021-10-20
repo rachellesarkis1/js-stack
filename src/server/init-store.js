@@ -6,11 +6,13 @@ import thunkMiddleware from "redux-thunk";
 
 import helloReducer from "../shared/reducer/hello";
 
+// $FlowIgnore
 const initStore = (plainPartialState: ?Object) => {
   const preloadedState = plainPartialState ? {} : undefined;
 
+  // $FlowIgnore
   if (plainPartialState && plainPartialState.hello) {
-    // flow-disable-next-line
+    // $FlowIgnore
     preloadedState.hello = helloReducer(undefined, {}).merge(
       Immutable.fromJS(plainPartialState.hello)
     );
@@ -22,5 +24,4 @@ const initStore = (plainPartialState: ?Object) => {
     applyMiddleware(thunkMiddleware)
   );
 };
-
 export default initStore;

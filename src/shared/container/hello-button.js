@@ -14,5 +14,5 @@ const mapDispatchToProps = (dispatch) => ({
     dispatch(sayHello("Hello!"));
   },
 });
-
+// $FlowIgnore
 export default connect(mapStateToProps, mapDispatchToProps)(Button);

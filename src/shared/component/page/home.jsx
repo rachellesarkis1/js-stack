@@ -22,6 +22,7 @@ const styles = {
     backgroundColor: "limegreen",
   },
 };
+// $FlowIgnore
 const HomePage = ({ classes }: { classes: Object }) => (
   <div>
     <Helmet
@@ -68,5 +69,5 @@ const HomePage = ({ classes }: { classes: Object }) => (
     <ModalExample />
   </div>
 );
-
+// $FlowIgnore
 export default injectSheet(styles)(HomePage);

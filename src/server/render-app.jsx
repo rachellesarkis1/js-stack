@@ -18,10 +18,12 @@ import {
 } from "../shared/config";
 import { isProd } from "../shared/util";
 
+// $FlowIgnore
 const renderApp = (
   location: string,
   plainPartialState: ?Object,
   routerContext: ?Object = {}
+  // $FlowIgnore
 ) => {
   const store = initStore(plainPartialState);
   const sheets = new SheetsRegistry();

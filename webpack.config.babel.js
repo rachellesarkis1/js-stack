@@ -10,14 +10,18 @@ export default {
   entry: ["react-hot-loader/patch", "./src/client"],
   output: {
     filename: "js/bundle.js",
+    // $FlowIgnore
     path: path.resolve(__dirname, "dist"),
+    // $FlowIgnore
     publicPath: isProd ? "/static/" : `http://localhost:${WDS_PORT}/dist/`,
   },
   module: {
     rules: [
+      // $FlowIgnore
       { test: /\.(js|jsx)$/, use: "babel-loader", exclude: /node_modules/ },
     ],
   },
+  // $FlowIgnore
   devtool: isProd ? false : "source-map",
   resolve: {
     extensions: [".js", ".jsx"],
@@ -30,8 +34,11 @@ export default {
     },
   },
   plugins: [
+    // $FlowIgnore
     new webpack.HotModuleReplacementPlugin(),
+    // $FlowIgnore
     new webpack.NoEmitOnErrorsPlugin(),
+    // $FlowIgnore
     new webpack.ProvidePlugin({
       process: "process/browser",
     }),

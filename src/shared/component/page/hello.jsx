@@ -7,7 +7,7 @@ import Message from "../../container/message";
 import HelloButton from "../../container/hello-button";
 
 const title = "Hello Page";
-
+// $FlowIgnore
 const HelloPage = () => (
   <div className="container mt-4">
     <Helmet
