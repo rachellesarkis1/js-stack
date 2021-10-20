@@ -12,10 +12,14 @@
     "jest": true
   },
   "rules": {
-    // "semi": [2, "never"],
+    "semi": [2, "always"],
     "no-unexpected-multiline": 2,
     "compat/compat": 2,
-    "indent": "off"
+    "quotes": ["error", "double"],
+    "object-curly-newline": "off",
+    "implicit-arrow-linebreak": "off",
+    "operator-linebreak": "off",
+    "comma-dangle": ["error", "only-multiline"]
   },
   "settings": {
     "polyfills": ["fetch"]

@@ -1,6 +1,4 @@
 // @flow
-/* eslint quotes: ["error", "double"] */
-/* eslint-disable */
 import React from "react";
 
 const ModalExample = () => (

@@ -1,5 +1,4 @@
 // @flow
-/* eslint quotes: ["error", "double"] */
 
 import React from "react";
 
@@ -9,7 +8,6 @@ type Props = {
 };
 
 const Button = ({ label, handleClick }: Props) => (
-  /* eslint-disable */
   <button
     onClick={handleClick}
     className="btn btn-primary"

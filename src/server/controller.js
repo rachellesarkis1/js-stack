@@ -1,5 +1,4 @@
 // @flow
-/* eslint quotes: ["error", "double"] */
 
 export const homePage = () => null;
 

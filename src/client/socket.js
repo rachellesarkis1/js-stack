@@ -1,5 +1,4 @@
 // @flow
-/* eslint quotes: ["error", "double"] */
 
 import { io } from "socket.io-client";
 

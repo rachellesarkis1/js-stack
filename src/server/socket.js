@@ -1,5 +1,4 @@
 // @flow
-/* eslint quotes: ["error", "double"] */
 
 import {
   IO_CONNECT,

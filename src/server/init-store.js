@@ -1,5 +1,4 @@
 // @flow
-/* eslint quotes: ["error", "double"] */
 
 import Immutable from "immutable";
 import { createStore, combineReducers, applyMiddleware } from "redux";
@@ -12,7 +11,6 @@ const initStore = (plainPartialState: ?Object) => {
 
   if (plainPartialState && plainPartialState.hello) {
     // flow-disable-next-line
-    /* eslint-disable */
     preloadedState.hello = helloReducer(undefined, {}).merge(
       Immutable.fromJS(plainPartialState.hello)
     );

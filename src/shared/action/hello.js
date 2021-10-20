@@ -1,10 +1,9 @@
 // @flow
-/* eslint quotes: ["error", "double"] */
 
 import "isomorphic-fetch";
 
 import { createAction } from "redux-actions";
-import { helloEndpointRoute } from "../../shared/routes";
+import { helloEndpointRoute } from "../routes";
 
 export const SAY_HELLO = "SAY_HELLO";
 export const SAY_HELLO_ASYNC_REQUEST = "SAY_HELLO_ASYNC_REQUEST";

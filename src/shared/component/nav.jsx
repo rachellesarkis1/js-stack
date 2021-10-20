@@ -1,6 +1,4 @@
 // @flow
-/* eslint quotes: ["error", "double"] */
-/* eslint-disable */
 import $ from "jquery";
 import React from "react";
 import { Link, NavLink } from "react-router-dom";

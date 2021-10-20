@@ -1,12 +1,11 @@
 // @flow
-/* eslint quotes: ["error", "double"] */
-/* eslint-disable */
 import React from "react";
 import Helmet from "react-helmet";
 
+import injectSheet from "react-jss";
 import ModalExample from "../modal-example";
 import { APP_NAME } from "../../config";
-import injectSheet from "react-jss";
+
 const styles = {
   hoverMe: {
     "&:hover": {
@@ -56,7 +55,9 @@ const HomePage = ({ classes }: { classes: Object }) => (
           <h3 className="mb-3">JSS</h3>
           <p className={classes.hoverMe}>Hover me.</p>
           <p className={classes.resizeMe}>Resize the window.</p>
-          <button className={classes.specialButton}>Composition</button>
+          <button type="button" className={classes.specialButton}>
+            Composition
+          </button>
         </div>
         <div className="col-md-4 mb-4">
           <h3 className="mb-3">Websockets</h3>

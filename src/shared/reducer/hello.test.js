@@ -1,5 +1,3 @@
-/* eslint quotes: ["error", "double"] */
-
 import {
   sayHello,
   sayHelloAsyncRequest,
@@ -17,7 +15,6 @@ beforeEach(() => {
 
 test("handle default", () => {
   expect(helloState.get("message")).toBe("Initial reducer message");
-  /* eslint-disable */
   expect(helloState.get("messageAsync")).toBe(
     "Initial reducer message for async call"
   );
