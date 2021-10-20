@@ -1,5 +1,4 @@
 // @flow
-/* eslint quotes: ["error", "double"] */
 
 import Immutable from "immutable";
 import type { fromJS as Immut } from "immutable";
@@ -18,7 +17,6 @@ const initialState = Immutable.fromJS({
 
 const helloReducer = (
   state: Immut = initialState,
-  /* eslint-disable */
   action: { type: string, payload: any }
 ) => {
   switch (action.type) {

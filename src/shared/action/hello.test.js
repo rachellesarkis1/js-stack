@@ -1,5 +1,3 @@
-/* eslint quotes: ["error", "double"] */
-
 import fetchMock from "fetch-mock";
 import configureMockStore from "redux-mock-store";
 import thunkMiddleware from "redux-thunk";
@@ -11,7 +9,7 @@ import {
   sayHelloAsyncFailure,
 } from "./hello";
 
-import { helloEndpointRoute } from "../../shared/routes";
+import { helloEndpointRoute } from "../routes";
 
 const mockStore = configureMockStore([thunkMiddleware]);
 
