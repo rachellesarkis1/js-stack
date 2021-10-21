@@ -56,4 +56,4 @@ if (module.hot) {
 const jssServerSide: ?HTMLElement = document.querySelector(JSS_SSR_SELECTOR);
 jssServerSide?.parentNode?.removeChild(jssServerSide);
 
-setUpSocket(store);
+setUpSocket();
