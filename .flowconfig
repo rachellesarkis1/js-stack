@@ -1,3 +1,4 @@
-
 [ignore]
 .*/node_modules/jss/.*
+[libs]
+flow-typed/module-hot.js

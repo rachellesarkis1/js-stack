@@ -15,12 +15,11 @@ const initialState = Immutable.fromJS({
   message: "Initial reducer message",
   messageAsync: "Initial reducer message for async call",
 });
-// $FlowIgnore
+
 const helloReducer = (
   state: Immut = initialState,
   action: { type: string, payload: any }
-  // $FlowIgnore
-) => {
+): string => {
   switch (action.type) {
     case SAY_HELLO:
       return state.set("message", action.payload);

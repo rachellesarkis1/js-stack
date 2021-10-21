@@ -22,8 +22,8 @@ const styles = {
     backgroundColor: "limegreen",
   },
 };
-// $FlowIgnore
-const HomePage = ({ classes }: { classes: Object }) => (
+
+const HomePage = ({ classes }: { classes: Object }): React$Element<any> => (
   <div>
     <Helmet
       meta={[

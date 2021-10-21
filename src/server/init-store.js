@@ -6,11 +6,9 @@ import thunkMiddleware from "redux-thunk";
 
 import helloReducer from "../shared/reducer/hello";
 
-// $FlowIgnore
-const initStore = (plainPartialState: ?Object) => {
+const initStore: any = (plainPartialState: ?Object) => {
   const preloadedState = plainPartialState ? {} : undefined;
 
-  // $FlowIgnore
   if (plainPartialState && plainPartialState.hello) {
     // $FlowIgnore
     preloadedState.hello = helloReducer(undefined, {}).merge(

@@ -3,8 +3,7 @@
 import React from "react";
 import { APP_NAME } from "../config";
 
-// $FlowIgnore
-const Footer = () => (
+const Footer = (): React$Element<any> => (
   <div className="container mt-5">
     <hr />
     <footer>

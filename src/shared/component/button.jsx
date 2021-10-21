@@ -7,8 +7,7 @@ type Props = {
   handleClick: Function,
 };
 
-// $FlowIgnore
-const Button = ({ label, handleClick }: Props) => (
+const Button = ({ label, handleClick }: Props): React$Element<any> => (
   <button
     onClick={handleClick}
     className="btn btn-primary"

@@ -14,8 +14,7 @@ const handleNavLinkClick = () => {
   $("body").scrollTop(0);
   $(".js-navbar-collapse").collapse("hide");
 };
-// $FlowIgnore
-const Nav = () => (
+const Nav = (): React$Element<any> => (
   <nav className="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse">
     <button
       className="navbar-toggler navbar-toggler-right"
