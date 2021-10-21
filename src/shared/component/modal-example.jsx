@@ -1,7 +1,7 @@
 // @flow
 import React from "react";
-// $FlowIgnore
-const ModalExample = () => (
+
+const ModalExample = (): React$Element<any> => (
   <div className="js-modal-example modal fade">
     <div className="modal-dialog">
       <div className="modal-content">

@@ -1,4 +1,3 @@
-/* eslint-disable quotes */
 // @flow
 
 import compression from "compression";
@@ -29,7 +28,9 @@ http.listen(WEB_PORT, () => {
     `Server running on port ${WEB_PORT} ${
       isProd
         ? "(production)"
-        : '(development).\nKeep "yarn dev:wds" running in an other terminal'
+        : // eslint-disable-next-line quotes
+          '(development).\nKeep "yarn dev:wds" running in an other terminal'
+      // eslint-enable-next-line quotes
     }.`
   );
 });

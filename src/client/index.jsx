@@ -15,7 +15,7 @@ import setUpSocket from "./socket";
 
 import App from "../shared/app";
 import helloReducer from "../shared/reducer/hello";
-import { APP_CONTAINER_SELECTOR } from "../shared/config";
+import { APP_CONTAINER_SELECTOR, JSS_SSR_SELECTOR } from "../shared/config";
 import { isProd } from "../shared/util";
 
 window.jQuery = $;
@@ -45,5 +45,15 @@ const wrapApp = (AppComponent, reduxStore) => (
   </Provider>
 );
 ReactDOM.render(wrapApp(App, store), rootEl);
+
+if (module.hot) {
+  module.hot.accept("../shared/app", () => {
+    // eslint-disable-next-line global-require
+    const NextApp = require("../shared/app").default;
+    ReactDOM.render(wrapApp(NextApp, store), rootEl);
+  });
+}
+const jssServerSide: ?HTMLElement = document.querySelector(JSS_SSR_SELECTOR);
+jssServerSide?.parentNode?.removeChild(jssServerSide);
 
 setUpSocket(store);

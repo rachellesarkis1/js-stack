@@ -15,8 +15,8 @@ import {
   HELLO_PAGE_ROUTE,
   HELLO_ASYNC_PAGE_ROUTE,
 } from "./routes";
-// $FlowIgnore
-const App = () => (
+
+const App = (): React$Element<any> => (
   <div style={{ paddingTop: 54 }}>
     <Helmet titleTemplate={`%s | ${APP_NAME}`} defaultTitle={APP_NAME} />
     <Nav />

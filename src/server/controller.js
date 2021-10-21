@@ -1,19 +1,15 @@
 // @flow
 
-// $FlowIgnore
-export const homePage = () => null;
+export const homePage = (): null => null;
 
-// $FlowIgnore
-export const helloPage = () => ({
+export const helloPage = (): Object => ({
   hello: { message: "Server-side preloaded message" },
 });
 
-// $FlowIgnore
-export const helloAsyncPage = () => ({
+export const helloAsyncPage: Object = () => ({
   hello: { messageAsync: "Server-side preloaded message for async page" },
 });
 
-// $FlowIgnore
-export const helloEndpoint = (num: number) => ({
+export const helloEndpoint = (num: number): Object => ({
   serverMessage: `Hello from the server! (received ${num})`,
 });

@@ -7,8 +7,8 @@ import Message from "../../container/message";
 import HelloButton from "../../container/hello-button";
 
 const title = "Hello Page";
-// $FlowIgnore
-const HelloPage = () => (
+
+const HelloPage = (): React$Element<any> => (
   <div className="container mt-4">
     <Helmet
       title={title}
